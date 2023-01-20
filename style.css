@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.left-head {
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.right-head {
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    float: right;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    background-color: black;
+    padding: 20px 20px;
+    
+}
+header a {
+    color: white;
+    height: 60px;
+    text-decoration: none;
+}
+.right-head li:hover {
+    background-color: gray;
+}
+.right-head li:hover a {
+    color: blue;
+}
+main {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    clear: both;
+}
+.contain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.971), rgba(0, 0, 0, 0.666)), url("/images/background.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+}
+.enjoy {
+    color: royalblue;
+}
+.contain p {
+    padding: 20px 0;
+}
+.contain a {
+    color: white;
+    text-decoration: none;
+}
+.contain button {
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: gray;
+}
+.contain button:hover {
+    background-color: steelblue;
+}
+section {
+    width: 100%;
+    height: 230px;
+    background-color: black;
+}
+.ps4 {
+    width: 50%;
+    height: 230px;
+    background-color: black;
+    float: left;
+}
+.ps4 img {
+    width: 100%;
+    height: 100%;
+}
+.history {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color: rgba(44, 40, 40, 0.76);
+    color: white;
+    padding-top: 40px;
+}
+.history span {
+    color: royalblue;
+}
+.history p {
+    padding: 15px;
+}
+.history a {
+    color:black;
+    text-decoration: none;
+}
+.history button {
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: white;
+}
+.history button:hover {
+    background-color: royalblue;
+}
+.logo {
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    clear: both;
+}
+.ps-game {
+    width: 33.33%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+.logo-ps img{
+    width: 15%;
+    margin: auto;
+    padding-top: 10px;
+}
+.xbox-game {
+    width: 33.33%;
+    height: 100%;
+    background-color:royalblue;
+    float: left;
+    text-align: center;
+}
+.logo-xbox img {
+    width: 15%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.steam-game {
+    width: 33.33%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+.logo-steam img {
+    width: 15%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.logo p {
+    padding-top: 20px;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(44, 40, 40, 0.76);
+    text-align: center;
+    padding-top: 10px;
+    clear: left;
+}
+footer span {
+    color: white;
+}
+@media (max-width: 600px) {
+    .left-head {
+        width: 100%;
+        text-align: center;
+    }
+    .right-head {
+        width: 100%;
+    }
+    .right-head li {
+        width: 100%;
+    }
+    .ps4 {
+        width: 100%;
+    }
+    .history {
+        width: 100%;
+        height: auto;
+    }
+    .ps-game {
+        width: 100%;
+    }
+    .xbox-game {
+        width: 100%;
+    }
+    .steam-game {
+        width: 100%;
+    }
+}
+@media (min-width:600px) and (max-width:1000px) {
+    .left-head {
+        width: 100%;
+        text-align: center;
+    }
+    .right-head {
+        width: 100%;
+    }
+    .right-head li {
+        width: 100%;
+    }
+    .ps4 {
+        width: 100%;
+    }
+    .history {
+        width: 100%;
+        height: auto;
+    }
+    .ps-game {
+        width: 100%;
+        height: auto;
+    }
+    .xbox-game {
+        width: 100%;
+        height: auto;
+    }
+    .steam-game {
+        width: 100%;
+        height: auto;
+    }
+}
